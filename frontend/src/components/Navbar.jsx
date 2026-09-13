@@ -42,7 +42,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenSearch, isDark, 
         {/* Navigation Menu */}
         <nav className="hidden lg:flex items-center gap-5">
           {primaryNavItems.map((item) => {
-            const isActive = activeTab === item.id || (item.id === 'countries' && activeTab === 'country-detail')
+            const isActive = activeTab === item.id || (item.id === 'countries' && (activeTab === 'country-detail' || activeTab === 'explore' || activeTab === 'explore-countries'))
             return (
               <button
                 key={item.id}

@@ -29,21 +29,40 @@ export const COUNTRIES = [
     region: "Central Asia",
     isSpecialFeature: true,
     tagline: "Land of Mountains & Premier Affordable Medical Education",
-    heroImage: "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80",
-    overview: "Kyrgyzstan is the leading destination for Pakistani and international students pursuing high-quality, affordable Medical (MBBS/MD) and technical degrees. Nestled in Central Asia with breathtaking mountain landscapes, it offers safe cities, low living costs, and recognized universities.",
+    heroImage: "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1800&q=85",
+    overview: "Kyrgyzstan is a beautiful Central Asian country known for its stunning mountains, rich culture and friendly people. It offers affordable tuition fees, modern universities and a safe environment for international students.",
     capital: "Bishkek",
-    popularCities: ["Bishkek", "Osh", "Karakol", "Jalal-Abad"],
+    language: "Kyrgyz, Russian",
     currency: "Kyrgyzstani Som (KGS) / USD",
+    population: "6.8 Million (approx)",
+    popularCities: ["Bishkek", "Osh", "Karakol", "Jalal-Abad"],
     livingCostMonthly: "$200 - $350",
     tuitionRange: "$3,000 - $5,000 / year",
     partTimeWork: "Allowed under student visa regulations",
     medicalFocus: true,
+    videoId: "Qp37q2-Gjvw",
+    videoTitle: "Kyrgyzstan 4K — Scenic 2-Minute Country & Lifestyle Tour",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "bishkek", name: "Bishkek", subtitle: "Capital", image: "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=800&q=80" },
+      { id: "osh", name: "Osh", subtitle: "Second largest city", image: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=800&q=80" },
+      { id: "karakol", name: "Karakol", subtitle: "Popular student city", image: "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80", caption: "Ala-Archa National Park & Mountain Range" },
+      { url: "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=80", caption: "Issyk-Kul Alpine Lake & Nature" },
+      { url: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=1200&q=80", caption: "Historical Central Asian Architecture" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "Medical Campus & Clinical Facilities" }
+    ],
     whyStudy: [
-      "Extremely affordable MBBS tuition fees ($3k-$5k/yr) compared to Western options",
-      "WHO, WFME, WDOMS & International Medical Board Recognized Universities",
-      "English medium instruction for international medical pathways",
-      "Modern hospital affiliations and clinical rotatory internships",
-      "Safe, welcoming student environment with vibrant Pakistani student communities"
+      "Affordable tuition fees and living costs",
+      "Recognized medical universities",
+      "Safe and student-friendly environment",
+      "Rich culture and natural beauty"
     ],
     requirements: [
       "FSc Pre-Medical / High School Certificate with minimum 50%-60% marks",
@@ -65,15 +84,35 @@ export const COUNTRIES = [
     region: "Central Asia",
     isSpecialFeature: true,
     tagline: "Historic Silk Road Hub & Rapidly Expanding Medical & Tech Education",
-    heroImage: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=1200&q=80",
-    overview: "Uzbekistan is a booming educational hub in Central Asia, renowned for its ancient Silk Road cities of Tashkent, Samarkand, and Bukhara. Offering state-of-the-art medical institutes and engineering hubs with low tuition and low living costs.",
+    heroImage: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=1800&q=85",
+    overview: "Uzbekistan is a booming educational destination in Central Asia, renowned for its ancient Silk Road cities, modern medical academies, safe student neighborhoods, and extremely economical living costs.",
     capital: "Tashkent",
-    popularCities: ["Tashkent", "Samarkand", "Bukhara", "Andijan"],
+    language: "Uzbek, Russian",
     currency: "Uzbek Som (UZS) / USD",
+    population: "36.0 Million",
+    popularCities: ["Tashkent", "Samarkand", "Bukhara", "Andijan"],
     livingCostMonthly: "$250 - $400",
     tuitionRange: "$3,200 - $5,500 / year",
     partTimeWork: "Permitted on-campus and selected tech hubs",
     medicalFocus: true,
+    videoId: "cl3M9RsLwIw",
+    videoTitle: "Uzbekistan 4K — 2-Minute Silk Road & Modern Tashkent Tour",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=300&q=80",
+      "/images/tashkent-medical-academy.jpg"
+    ],
+    majorCitiesData: [
+      { id: "tashkent", name: "Tashkent", subtitle: "Capital", image: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=800&q=80" },
+      { id: "samarkand", name: "Samarkand", subtitle: "Historic Silk Road City", image: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=800&q=80" },
+      { id: "bukhara", name: "Bukhara", subtitle: "Cultural Heritage Hub", image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=1200&q=80", caption: "Tashkent City Center & Wide Boulevards" },
+      { url: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80", caption: "Registan Square in Ancient Samarkand" },
+      { url: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80", caption: "Po-i-Kalyan Mosque Complex in Bukhara" },
+      { url: "/images/tashkent-medical-academy.jpg", caption: "Tashkent Medical Academy Campus" }
+    ],
     whyStudy: [
       "Historic, culturally rich environment with top-tier modern infrastructure",
       "World-recognized Tashkent and Samarkand Medical Academies",
@@ -100,15 +139,35 @@ export const COUNTRIES = [
     region: "Central Asia",
     isSpecialFeature: false,
     tagline: "Economic Leader of Central Asia with Modern Research Universities",
-    heroImage: "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=80",
-    overview: "Kazakhstan combines top-ranked global universities, cutting-edge IT and Engineering research facilities, and medical faculties in cosmopolitan hubs like Almaty and Astana.",
+    heroImage: "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1800&q=85",
+    overview: "Kazakhstan combines top-ranked global universities, cutting-edge IT and Engineering research facilities, and premier medical faculties in cosmopolitan hubs like Almaty and Astana.",
     capital: "Astana",
-    popularCities: ["Almaty", "Astana", "Shymkent"],
+    language: "Kazakh, Russian",
     currency: "Kazakhstani Tenge (KZT)",
+    population: "19.6 Million",
+    popularCities: ["Almaty", "Astana", "Shymkent"],
     livingCostMonthly: "$300 - $500",
     tuitionRange: "$3,500 - $6,500 / year",
     partTimeWork: "Up to 20 hrs/week",
     medicalFocus: true,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Discover Kazakhstan — Modern Cities & World-Class Research",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "almaty", name: "Almaty", subtitle: "Educational & Cultural Center", image: "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=80" },
+      { id: "astana", name: "Astana", subtitle: "Futuristic Capital", image: "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=800&q=80" },
+      { id: "shymkent", name: "Shymkent", subtitle: "Third Largest City", image: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=80", caption: "Almaty City & Tian Shan Foothills" },
+      { url: "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=1200&q=80", caption: "Big Almaty Alpine Lake" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "University Research Laboratories" },
+      { url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", caption: "International Student Campus Community" }
+    ],
     whyStudy: [
       "Top ranked universities in QS World Rankings (Al-Farabi Kazakh National University)",
       "Strong STEM and Medical research infrastructure",
@@ -129,15 +188,35 @@ export const COUNTRIES = [
     region: "Europe",
     isSpecialFeature: false,
     tagline: "Affordable European Medical & Engineering Hub",
-    heroImage: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1200&q=80",
-    overview: "Belarus offers European standard medical and technical education in Minsk and Grodno with English-medium MBBS/MD courses.",
+    heroImage: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1800&q=85",
+    overview: "Belarus offers European standard medical and technical education in Minsk and Grodno with English-medium MBBS/MD courses, high clinical exposure, and clean, peaceful European cities.",
     capital: "Minsk",
-    popularCities: ["Minsk", "Grodno", "Vitebsk"],
+    language: "Belarusian, Russian",
     currency: "Belarusian Ruble (BYN) / USD",
+    population: "9.2 Million",
+    popularCities: ["Minsk", "Grodno", "Vitebsk"],
     livingCostMonthly: "$250 - $400",
     tuitionRange: "$4,000 - $5,200 / year",
     partTimeWork: "Restricted",
     medicalFocus: true,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in Belarus — European Medical Degree Programs",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "minsk", name: "Minsk", subtitle: "Capital", image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80" },
+      { id: "grodno", name: "Grodno", subtitle: "Medical University City", image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80" },
+      { id: "vitebsk", name: "Vitebsk", subtitle: "Historic Student Hub", image: "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1200&q=80", caption: "Minsk City Center & Wide Avenues" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "Belarusian State Medical University Campus" },
+      { url: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80", caption: "Advanced Clinical Simulation Labs" },
+      { url: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80", caption: "Grodno Old Town & Architecture" }
+    ],
     whyStudy: ["WHO/WFME recognized medical degrees", "Modern clinical facilities", "Safe European country"],
     requirements: ["FSc Pre-Medical", "Passport", "Medical Certificates"],
     visaGuidance: "Visa on arrival or at Belarus diplomatic missions upon university invitation approval.",
@@ -154,15 +233,35 @@ export const COUNTRIES = [
     region: "Europe",
     isSpecialFeature: false,
     tagline: "European Standard Medical & Technical Degrees at Low Cost",
-    heroImage: "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?auto=format&fit=crop&w=1800&q=85",
     overview: "Serbia offers accredited medical, IT, and business degree programs in Belgrade and Novi Sad with affordable tuition fees, European living standards, and welcoming international communities.",
     capital: "Belgrade",
-    popularCities: ["Belgrade", "Novi Sad", "Nis"],
+    language: "Serbian, English",
     currency: "Serbian Dinar (RSD) / EUR",
+    population: "6.6 Million",
+    popularCities: ["Belgrade", "Novi Sad", "Nis"],
     livingCostMonthly: "$300 - $500",
     tuitionRange: "€3,500 - €6,000 / year",
     partTimeWork: "Permitted under student residency guidelines",
     medicalFocus: true,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in Serbia — Gateway to Affordable European Education",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "belgrade", name: "Belgrade", subtitle: "Capital", image: "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?auto=format&fit=crop&w=800&q=80" },
+      { id: "novi-sad", name: "Novi Sad", subtitle: "European Capital of Culture", image: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=80" },
+      { id: "nis", name: "Nis", subtitle: "Historic University City", image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?auto=format&fit=crop&w=1200&q=80", caption: "Belgrade Waterfront & Kalemegdan Fortress" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "Belgrade Medical Faculty & Research Hospitals" },
+      { url: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80", caption: "Danube River Promenade" },
+      { url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", caption: "Student Life & Campus Community" }
+    ],
     whyStudy: [
       "Affordable European medical & pharmacy degree options",
       "Degrees widely recognized throughout Europe and overseas",
@@ -183,15 +282,35 @@ export const COUNTRIES = [
     region: "Europe",
     isSpecialFeature: false,
     tagline: "English-Speaking EU Mediterranean Island for Global Higher Education",
-    heroImage: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1800&q=85",
     overview: "Malta is an English-speaking European Union archipelago offering British-accredited degrees, warm Mediterranean climate, top medical research schools, and rich post-graduation pathways.",
     capital: "Valletta",
-    popularCities: ["Valletta", "Sliema", "Msida"],
+    language: "English, Maltese",
     currency: "Euro (€)",
+    population: "530,000",
+    popularCities: ["Valletta", "Sliema", "Msida"],
     livingCostMonthly: "€600 - €900",
     tuitionRange: "€5,000 - €9,000 / year",
     partTimeWork: "Up to 20 hrs/week after 90 days of study",
     medicalFocus: true,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in Malta — English-Speaking European Paradise",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "valletta", name: "Valletta", subtitle: "Capital", image: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=80" },
+      { id: "msida", name: "Msida", subtitle: "University Town", image: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=800&q=80" },
+      { id: "sliema", name: "Sliema", subtitle: "Coastal Student Area", image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80", caption: "Valletta Grand Harbour" },
+      { url: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80", caption: "Mediterranean Coastline & Historic Architecture" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "University of Malta Main Campus" },
+      { url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", caption: "Multicultural Student Activities" }
+    ],
     whyStudy: [
       "100% English-speaking EU country with British education standards",
       "Safe, sunny Mediterranean island lifestyle",
@@ -212,15 +331,35 @@ export const COUNTRIES = [
     region: "Europe",
     isSpecialFeature: false,
     tagline: "Tuition-Free Public Higher Education & Engineering Powerhouse",
-    heroImage: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1800&q=85",
     overview: "Germany offers top-tier public university tuition-free education (semester fee only), 18-month post-study work visas, and world-renowned degrees in Engineering, CS, and Natural Sciences.",
     capital: "Berlin",
-    popularCities: ["Munich", "Berlin", "Aachen", "Frankfurt"],
+    language: "German, English",
     currency: "Euro (€)",
+    population: "84.4 Million",
+    popularCities: ["Munich", "Berlin", "Aachen", "Frankfurt"],
     livingCostMonthly: "€850 - €1,100",
     tuitionRange: "€0 - €3,000 / year (Public Universities)",
     partTimeWork: "20 hrs/week during semester, full-time in holidays",
     medicalFocus: false,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in Germany — World-Class Public Education & Engineering",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "munich", name: "Munich", subtitle: "Tech & Engineering Capital", image: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=800&q=80" },
+      { id: "berlin", name: "Berlin", subtitle: "Capital", image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80" },
+      { id: "frankfurt", name: "Frankfurt", subtitle: "Financial Center", image: "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1200&q=80", caption: "Munich Marienplatz & Bavarian Heritage" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "Technical University of Munich (TUM) Campus" },
+      { url: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80", caption: "Modern University Engineering Laboratories" },
+      { url: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80", caption: "Student Life & European Transit Network" }
+    ],
     whyStudy: ["Zero public tuition fees for most programs", "Post-study job seeker visa for 18 months", "Highest engineering standard in Europe"],
     requirements: ["FSc / A-Levels + Studienkolleg or 1 year Bachelor", "IELTS 6.5+ or TOEFL", "Blocked Account (~€11,208)"],
     visaGuidance: "National Visa (Category D) via German Embassy appointment.",
@@ -237,15 +376,35 @@ export const COUNTRIES = [
     region: "Europe",
     isSpecialFeature: false,
     tagline: "World's #1 Education System & Tech Innovation Hub",
-    heroImage: "https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?auto=format&fit=crop&w=1800&q=85",
     overview: "Finland provides globally celebrated education with generous scholarships, safe Nordic living standards, cutting-edge technology programs, and generous post-study work permits.",
     capital: "Helsinki",
-    popularCities: ["Helsinki", "Tampere", "Turku", "Oulu"],
+    language: "Finnish, Swedish, English",
     currency: "Euro (€)",
+    population: "5.6 Million",
+    popularCities: ["Helsinki", "Tampere", "Turku", "Oulu"],
     livingCostMonthly: "€700 - €1,000",
     tuitionRange: "€6,000 - €12,000 / year",
     partTimeWork: "Up to 30 hrs/week permitted",
     medicalFocus: false,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in Finland — Happiest Country with #1 Education",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "helsinki", name: "Helsinki", subtitle: "Capital", image: "https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?auto=format&fit=crop&w=800&q=80" },
+      { id: "tampere", name: "Tampere", subtitle: "Tech & Student Hub", image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=800&q=80" },
+      { id: "turku", name: "Turku", subtitle: "Oldest Academic City", image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?auto=format&fit=crop&w=1200&q=80", caption: "Helsinki Cathedral & Senate Square" },
+      { url: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=1200&q=80", caption: "Nordic Nature & Clean Lake Landscapes" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "Innovative Finnish University Campuses" },
+      { url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", caption: "Collaborative Learning & Modern Classrooms" }
+    ],
     whyStudy: [
       "Top-ranked education system globally with high innovation index",
       "Up to 2-year post-study job seeker residence permit",
@@ -266,15 +425,35 @@ export const COUNTRIES = [
     region: "Europe",
     isSpecialFeature: false,
     tagline: "World-Class Academic Reputation & 2-Year Graduate Work Route",
-    heroImage: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1800&q=85",
     overview: "The UK is home to world leading institutions like Oxford, Cambridge, and Imperial. Offers 1-year Master degrees and 2-year Graduate Post-Study Work Visas.",
     capital: "London",
-    popularCities: ["London", "Manchester", "Birmingham", "Oxford"],
+    language: "English",
     currency: "British Pound (£)",
+    population: "67.8 Million",
+    popularCities: ["London", "Manchester", "Birmingham", "Oxford"],
     livingCostMonthly: "£1,000 - £1,400",
     tuitionRange: "£12,000 - £25,000 / year",
     partTimeWork: "20 hrs/week during term time",
     medicalFocus: false,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in the UK — Academic Excellence & Graduate Work Rights",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "london", name: "London", subtitle: "Capital", image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80" },
+      { id: "manchester", name: "Manchester", subtitle: "Dynamic Student Metropolis", image: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80" },
+      { id: "edinburgh", name: "Edinburgh", subtitle: "Historic University City", image: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80", caption: "London Skyline & Tower Bridge" },
+      { url: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80", caption: "Historic British University Grounds" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "World-Renowned Research Facilities" },
+      { url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", caption: "International Student Life in the UK" }
+    ],
     whyStudy: ["1-Year Master's programs saving time and living expenses", "Graduate Route 2-Year Post Study Work Permit", "Global prestige"],
     requirements: ["High School / Bachelor Degree", "IELTS 6.5+ / MOI letter", "Proof of funds for tuition & living"],
     visaGuidance: "Student Visa (Tier 4) via UKVI online system with CAS letter.",
@@ -291,15 +470,35 @@ export const COUNTRIES = [
     region: "North America",
     isSpecialFeature: false,
     tagline: "World Leader in Higher Education, Innovation & STEM Careers",
-    heroImage: "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1800&q=85",
     overview: "The United States hosts thousands of prestigious universities, providing unparalleled research opportunities, diverse campus cultures, OPT work authorization, and 3-year STEM extensions.",
     capital: "Washington, D.C.",
-    popularCities: ["New York", "Boston", "Chicago", "San Francisco"],
+    language: "English",
     currency: "US Dollar ($)",
+    population: "335 Million",
+    popularCities: ["New York", "Boston", "Chicago", "San Francisco"],
     livingCostMonthly: "$900 - $1,500",
     tuitionRange: "$15,000 - $35,000 / year",
     partTimeWork: "20 hrs/week on-campus during semester",
     medicalFocus: false,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in the USA — Ivy League, Innovation & 3-Year STEM OPT",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "new-york", name: "New York City", subtitle: "Global Cultural Capital", image: "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=800&q=80" },
+      { id: "boston", name: "Boston", subtitle: "Academic Epicenter", image: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80" },
+      { id: "san-francisco", name: "San Francisco", subtitle: "Silicon Valley Hub", image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80", caption: "New York City Manhattan Skyline" },
+      { url: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80", caption: "American University Campus Architecture" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "High-Tech Computer & Biotech Labs" },
+      { url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", caption: "Campus Athletics & Student Community" }
+    ],
     whyStudy: [
       "Home to top-ranked Ivy League and tier-1 research universities",
       "Up to 36 months STEM OPT post-graduation work authorization",
@@ -320,15 +519,35 @@ export const COUNTRIES = [
     region: "North America",
     isSpecialFeature: false,
     tagline: "Top Global Standard of Living, Affordable Tuition & PGWP Pathways",
-    heroImage: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=1800&q=85",
     overview: "Canada is one of the most welcoming nations for international students, known for world-class universities, high safety, multicultural society, and post-graduation work permits (PGWP) leading to permanent residency.",
     capital: "Ottawa",
-    popularCities: ["Toronto", "Vancouver", "Montreal", "Calgary"],
+    language: "English, French",
     currency: "Canadian Dollar (CAD)",
+    population: "40.0 Million",
+    popularCities: ["Toronto", "Vancouver", "Montreal", "Calgary"],
     livingCostMonthly: "CAD $1,000 - $1,600",
     tuitionRange: "CAD $12,000 - $28,000 / year",
     partTimeWork: "Up to 24 hrs/week off-campus during terms",
     medicalFocus: false,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in Canada — Top Universities & Permanent Residency Pathways",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "toronto", name: "Toronto", subtitle: "Canada's Largest City", image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=800&q=80" },
+      { id: "vancouver", name: "Vancouver", subtitle: "Pacific Coastal Tech Hub", image: "https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?auto=format&fit=crop&w=800&q=80" },
+      { id: "montreal", name: "Montreal", subtitle: "Bilingual Cultural Capital", image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=1200&q=80", caption: "Canadian Rockies & Majestic Nature" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "University of Toronto Heritage Campus" },
+      { url: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80", caption: "World-Class Research Libraries" },
+      { url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", caption: "Safe & Diverse Multicultural Student Life" }
+    ],
     whyStudy: [
       "Up to 3-year Post-Graduation Work Permit (PGWP)",
       "Clear permanent residency pathways via Express Entry & PNP",
@@ -349,15 +568,35 @@ export const COUNTRIES = [
     region: "Australia",
     isSpecialFeature: false,
     tagline: "High Quality of Life, World-Class Universities & Post-Study Work Visas",
-    heroImage: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1800&q=85",
     overview: "Australia offers globally recognized Group of Eight universities, exceptional student lifestyles in Sydney, Melbourne, and Brisbane, and up to 4-5 years of post-study work rights.",
     capital: "Canberra",
-    popularCities: ["Sydney", "Melbourne", "Brisbane", "Perth"],
+    language: "English",
     currency: "Australian Dollar (AUD)",
+    population: "26.5 Million",
+    popularCities: ["Sydney", "Melbourne", "Brisbane", "Perth"],
     livingCostMonthly: "AUD $1,200 - $1,800",
     tuitionRange: "AUD $18,000 - $35,000 / year",
     partTimeWork: "48 hrs per fortnight during semester",
     medicalFocus: false,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in Australia — Group of Eight & Post-Study Work Visas",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "sydney", name: "Sydney", subtitle: "Global Gateway & Harbour City", image: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=800&q=80" },
+      { id: "melbourne", name: "Melbourne", subtitle: "World's Most Liveable City", image: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80" },
+      { id: "brisbane", name: "Brisbane", subtitle: "Sunny Subtropical University Hub", image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1200&q=80", caption: "Sydney Opera House & Harbour" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "University of Sydney Sandstone Quadrangle" },
+      { url: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80", caption: "State-of-the-Art Science & Tech Labs" },
+      { url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", caption: "Sun-Drenched Coastal Student Lifestyle" }
+    ],
     whyStudy: [
       "7 universities in global QS Top 100",
       "Post-study work rights with potential extension for regional study",
@@ -378,15 +617,35 @@ export const COUNTRIES = [
     region: "Europe",
     isSpecialFeature: false,
     tagline: "Mediterranean Study Hub with Generous 50% Scholarships",
-    heroImage: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1800&q=85",
     overview: "Cyprus combines Mediterranean lifestyle, high quality international universities, 50% automatic entry scholarships, and seamless admission requirements.",
     capital: "Nicosia",
-    popularCities: ["Nicosia", "Famagusta", "Kyrenia"],
+    language: "Turkish, English",
     currency: "Euro (€) / Turkish Lira (TRY)",
+    population: "1.25 Million",
+    popularCities: ["Nicosia", "Famagusta", "Kyrenia"],
     livingCostMonthly: "$350 - $500",
     tuitionRange: "$3,000 - $7,000 / year (after scholarship)",
     partTimeWork: "20 hrs/week allowed",
     medicalFocus: true,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in Cyprus — Mediterranean Island & 50% Scholarships",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "nicosia", name: "Nicosia", subtitle: "Capital City", image: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=800&q=80" },
+      { id: "famagusta", name: "Famagusta", subtitle: "Historic Student Haven", image: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=80" },
+      { id: "kyrenia", name: "Kyrenia", subtitle: "Scenic Harbour City", image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80", caption: "Crystal Clear Mediterranean Waters" },
+      { url: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80", caption: "Historic Castles & Old City Quarters" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "Modern University Campuses & Hostels" },
+      { url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", caption: "Vibrant International Student Community" }
+    ],
     whyStudy: ["50% automatic scholarships for international applicants", "No complex IELTS requirements for pathway options", "Pleasant Mediterranean climate"],
     requirements: ["High School Certificate", "Passport", "Bank statement"],
     visaGuidance: "Simplified student visa procedure upon acceptance.",
@@ -403,15 +662,35 @@ export const COUNTRIES = [
     region: "Europe",
     isSpecialFeature: false,
     tagline: "EU Member Republic of Cyprus with World-Class Higher Education",
-    heroImage: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1800&q=85",
     overview: "South Cyprus (Republic of Cyprus) is a full European Union member offering internationally accredited medical, business, and tech universities with English instruction and European transfer pathways.",
     capital: "Nicosia",
-    popularCities: ["Nicosia", "Limassol", "Larnaca", "Paphos"],
+    language: "Greek, English",
     currency: "Euro (€)",
+    population: "920,000",
+    popularCities: ["Nicosia", "Limassol", "Larnaca", "Paphos"],
     livingCostMonthly: "€600 - €900",
     tuitionRange: "€4,000 - €9,000 / year",
     partTimeWork: "20 hrs/week allowed for international students",
     medicalFocus: true,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in Republic of Cyprus (EU) — Medical & Business Degrees",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "nicosia-south", name: "Nicosia", subtitle: "EU Member Capital", image: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=800&q=80" },
+      { id: "limassol", name: "Limassol", subtitle: "Cosmopolitan Coastal Hub", image: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=80" },
+      { id: "larnaca", name: "Larnaca", subtitle: "International Gateway", image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80", caption: "Nicosia EU University District" },
+      { url: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80", caption: "Limassol Marina & Promenade" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "University of Nicosia Medical School" },
+      { url: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80", caption: "EU Student Mobility & Campus Life" }
+    ],
     whyStudy: [
       "European Union recognized degrees and diplomas",
       "Direct pathway to EU work and postgraduate options",
@@ -432,15 +711,35 @@ export const COUNTRIES = [
     region: "Europe / Asia",
     isSpecialFeature: false,
     tagline: "Bridge Between Continents with Top-Tier Medical & Business Schools",
-    heroImage: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1800&q=85",
     overview: "Turkey features modern state and private universities offering English-medium programs in Medicine, Engineering, Architecture, and Business in Istanbul and Ankara.",
     capital: "Ankara",
-    popularCities: ["Istanbul", "Ankara", "Izmir"],
+    language: "Turkish, English",
     currency: "Turkish Lira (TRY) / USD",
+    population: "85.3 Million",
+    popularCities: ["Istanbul", "Ankara", "Izmir"],
     livingCostMonthly: "$300 - $500",
     tuitionRange: "$3,500 - $12,000 / year",
     partTimeWork: "Permitted for postgraduate students",
     medicalFocus: true,
+    videoId: "2v_b2p5a86A",
+    videoTitle: "Study in Turkey — Top Medical & Engineering Programs",
+    collagePhotos: [
+      "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=300&q=80",
+      "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=300&q=80"
+    ],
+    majorCitiesData: [
+      { id: "istanbul", name: "Istanbul", subtitle: "Transcontinental Metropolis", image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=800&q=80" },
+      { id: "ankara", name: "Ankara", subtitle: "Capital & University Hub", image: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=800&q=80" },
+      { id: "izmir", name: "Izmir", subtitle: "Aegean Student Paradise", image: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=800&q=80" }
+    ],
+    gallery: [
+      { url: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80", caption: "Bosphorus Strait & Historic Istanbul" },
+      { url: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=1200&q=80", caption: "Grand Mosque & Ottoman Architecture" },
+      { url: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80", caption: "Modern University Medical Clinics" },
+      { url: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80", caption: "Student Clubs & Campus Atmosphere" }
+    ],
     whyStudy: ["High quality medical training", "Vibrant multicultural cities", "Turkiye Burslari Scholarships available"],
     requirements: ["High School Certificate / Bachelor Degree", "Passport", "Language test or university foundation test"],
     visaGuidance: "Student residence permit issued post-arrival after student visa entry.",
@@ -572,7 +871,7 @@ export const UNIVERSITIES = [
   {
     id: "ism-kyrgyzstan",
     name: "International School of Medicine (ISM)",
-    logo: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=200&q=80",
+    logo: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=200&q=80",
     heroImage: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80",
     countryId: "kyrgyzstan",
     countryName: "Kyrgyzstan",
@@ -640,6 +939,165 @@ export const UNIVERSITIES = [
     internationalStudentInfo: "Extensive campus facilities, affordable government hostelling, and modern research laboratories."
   },
   {
+    id: "samarkand-med-uzb",
+    name: "Samarkand State Medical University",
+    logo: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80",
+    countryId: "uzbekistan",
+    countryName: "Uzbekistan",
+    city: "Samarkand",
+    established: "1930",
+    type: "Public Medical University",
+    ranking: "Top Medical School in Silk Road Region",
+    medicalFocus: true,
+    tuitionFee: "$3,500 / year",
+    hostelFee: "$450 / year",
+    applicationFee: "$50",
+    duration: "6 Years (MD / MBBS)",
+    degreeAwarded: "Doctor of Medicine (MD)",
+    eligibility: "FSc Pre-Medical 50%+ marks",
+    intakeDates: "September Intake",
+    officialWebsite: "https://www.sammu.uz/en",
+    lastVerified: "Sep 2026",
+    overview: "Samarkand State Medical University is one of Central Asia's oldest medical training institutes, equipped with advanced clinical centers and modern simulation training.",
+    photos: [
+      "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "General Medicine", duration: "6 Years", fee: "$3,500/yr", language: "English" },
+      { name: "Pediatrics & Dentistry", duration: "5 Years", fee: "$3,400/yr", language: "English" }
+    ],
+    requiredDocuments: ["FSc Marksheet", "Passport Copy", "Health Certificate"],
+    internationalStudentInfo: "Furnished student dormitories, Indian/Pakistani mess facilities, and active international student association."
+  },
+  {
+    id: "al-farabi-kaz",
+    name: "Al-Farabi Kazakh National University",
+    logo: "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=80",
+    countryId: "kazakhstan",
+    countryName: "Kazakhstan",
+    city: "Almaty",
+    established: "1934",
+    type: "Public National Research University",
+    ranking: "#1 University in Central Asia (QS #150)",
+    medicalFocus: true,
+    tuitionFee: "$3,800 - $4,800 / year",
+    hostelFee: "$500 - $700 / year",
+    applicationFee: "$80",
+    duration: "5-6 Years",
+    degreeAwarded: "MD / Bachelor / Master",
+    eligibility: "High School / FSc 60%+",
+    intakeDates: "September & January",
+    officialWebsite: "https://www.kaznu.kz/en",
+    lastVerified: "Sep 2026",
+    overview: "Al-Farabi Kazakh National University (KazNU) is the leading institution of the Republic of Kazakhstan, offering world-class faculties in Medicine, Information Technology, and Engineering.",
+    photos: [
+      "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "General Medicine (MD / MBBS)", duration: "6 Years", fee: "$4,500/yr", language: "English" },
+      { name: "Computer Science & AI", duration: "4 Years", fee: "$3,800/yr", language: "English" }
+    ],
+    requiredDocuments: ["Educational Certificates", "Passport", "Medical Fitness Certificate"],
+    internationalStudentInfo: "Huge smart campus with Olympic swimming pools, modern libraries, and international hostels."
+  },
+  {
+    id: "bsmu-belarus",
+    name: "Belarusian State Medical University (BSMU)",
+    logo: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1200&q=80",
+    countryId: "belarus",
+    countryName: "Belarus",
+    city: "Minsk",
+    established: "1921",
+    type: "Public Medical University",
+    ranking: "#1 Medical University in Belarus",
+    medicalFocus: true,
+    tuitionFee: "$4,500 / year",
+    hostelFee: "$600 / year",
+    applicationFee: "$100",
+    duration: "6 Years",
+    degreeAwarded: "Doctor of Medicine (MD)",
+    eligibility: "FSc Pre-Medical 60%+",
+    intakeDates: "September Intake",
+    officialWebsite: "https://www.bsmu.by/en",
+    lastVerified: "Sep 2026",
+    overview: "BSMU is the premier leading higher medical education provider in Belarus with state-of-the-art anatomy dissection halls, simulation labs, and WHO-recognized certifications.",
+    photos: [
+      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "General Medicine", duration: "6 Years", fee: "$4,500/yr", language: "English" },
+      { name: "Dentistry", duration: "5 Years", fee: "$4,800/yr", language: "English" }
+    ],
+    requiredDocuments: ["Attested High School Documents", "Passport", "HIV & Medical Clearance"],
+    internationalStudentInfo: "Modern campus situated right next to university clinical teaching hospitals in Minsk."
+  },
+  {
+    id: "univ-belgrade-serbia",
+    name: "University of Belgrade — Faculty of Medicine",
+    logo: "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?auto=format&fit=crop&w=1200&q=80",
+    countryId: "serbia",
+    countryName: "Serbia",
+    city: "Belgrade",
+    established: "1920",
+    type: "Public University",
+    ranking: "#1 University in Serbia & Western Balkans",
+    medicalFocus: true,
+    tuitionFee: "€5,500 / year",
+    hostelFee: "€1,200 / year",
+    applicationFee: "€100",
+    duration: "6 Years",
+    degreeAwarded: "Doctor of Medicine (MD)",
+    eligibility: "High School Diploma with Biology & Chemistry",
+    intakeDates: "October Intake",
+    officialWebsite: "http://med.bg.ac.rs/",
+    lastVerified: "Sep 2026",
+    overview: "University of Belgrade Faculty of Medicine offers accredited European medical training in English with clinical clerkships recognized across the European Union.",
+    photos: [
+      "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "Medicine in English (MD)", duration: "6 Years", fee: "€5,500/yr", language: "English" }
+    ],
+    requiredDocuments: ["High School Transcripts", "Passport", "Entrance Exam in Biology/Chemistry"],
+    internationalStudentInfo: "Cosmopolitan European capital life, vibrant international student community, and affordable EU living."
+  },
+  {
+    id: "univ-malta",
+    name: "University of Malta",
+    logo: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+    countryId: "malta",
+    countryName: "Malta",
+    city: "Msida",
+    established: "1592",
+    type: "Public National University",
+    ranking: "#1 Higher Education Institution in Malta",
+    medicalFocus: true,
+    tuitionFee: "€7,500 - €9,000 / year",
+    hostelFee: "€2,400 / year",
+    applicationFee: "€95",
+    duration: "3-5 Years",
+    degreeAwarded: "Bachelor / MD / Master",
+    eligibility: "High School Diploma + IELTS 6.0+",
+    intakeDates: "October & February",
+    officialWebsite: "https://www.um.edu.mt/",
+    lastVerified: "Sep 2026",
+    overview: "The University of Malta is the highest educational institution in Malta, offering British-modeled degrees, 100% English medium instruction, and European Union accreditation.",
+    photos: [
+      "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "Medicine and Surgery (MD)", duration: "5 Years", fee: "€9,000/yr", language: "English" },
+      { name: "B.Sc Computer Science", duration: "3 Years", fee: "€7,500/yr", language: "English" }
+    ],
+    requiredDocuments: ["A-Levels / High School Diploma", "IELTS Certificate", "Passport"],
+    internationalStudentInfo: "Sunny Mediterranean island campus, English-speaking environment, and direct access to Schengen travel."
+  },
+  {
     id: "tum-germany",
     name: "Technical University of Munich (TUM)",
     logo: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=200&q=80",
@@ -649,7 +1107,7 @@ export const UNIVERSITIES = [
     city: "Munich",
     established: "1868",
     type: "Public Research University",
-    ranking: "#1 Technical University in Germany",
+    ranking: "#1 Technical University in Germany (QS #28)",
     medicalFocus: false,
     tuitionFee: "€0 - €3,000 / year (No Tuition Fee for standard state tracks)",
     hostelFee: "€350 - €600 / month",
@@ -671,6 +1129,263 @@ export const UNIVERSITIES = [
     ],
     requiredDocuments: ["Bachelor Degree transcript", "IELTS 6.5+ / TOEFL 88", "GRE (for selected tracks)", "Statement of Purpose"],
     internationalStudentInfo: "World class labs, high job placement rates, and 18-month German post-study work visa."
+  },
+  {
+    id: "univ-helsinki",
+    name: "University of Helsinki",
+    logo: "https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?auto=format&fit=crop&w=1200&q=80",
+    countryId: "finland",
+    countryName: "Finland",
+    city: "Helsinki",
+    established: "1640",
+    type: "Public Research University",
+    ranking: "Top 100 Global University",
+    medicalFocus: false,
+    tuitionFee: "€8,000 - €12,000 / year",
+    hostelFee: "€400 - €600 / month",
+    applicationFee: "€100",
+    duration: "3 Years (Bachelor) / 2 Years (Master)",
+    degreeAwarded: "Bachelor / Master of Science",
+    eligibility: "High School Diploma / Bachelor + IELTS 6.5",
+    intakeDates: "September (Main Intake)",
+    officialWebsite: "https://www.helsinki.fi/en",
+    lastVerified: "Sep 2026",
+    overview: "University of Helsinki is Finland's oldest and largest institution of academic education, recognized globally for innovation, sustainability, and student satisfaction.",
+    photos: [
+      "https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "M.Sc Data Science", duration: "2 Years", fee: "€10,000/yr", language: "English" },
+      { name: "B.Sc Science & Sustainability", duration: "3 Years", fee: "€8,000/yr", language: "English" }
+    ],
+    requiredDocuments: ["Academic Transcripts", "IELTS/TOEFL", "Motivation Letter"],
+    internationalStudentInfo: "Nordic safety, modern libraries, high tech research centers, and 2-year job search residence permit."
+  },
+  {
+    id: "univ-manchester",
+    name: "University of Manchester",
+    logo: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80",
+    countryId: "uk",
+    countryName: "United Kingdom",
+    city: "Manchester",
+    established: "1824",
+    type: "Russell Group Public Research University",
+    ranking: "Top 30 University in the World (QS #32)",
+    medicalFocus: false,
+    tuitionFee: "£16,000 - £25,000 / year",
+    hostelFee: "£5,000 - £7,500 / year",
+    applicationFee: "£27 (UCAS)",
+    duration: "3 Years (UG) / 1 Year (PG)",
+    degreeAwarded: "Bachelor / Master of Science",
+    eligibility: "A-Levels / Bachelor + IELTS 6.5+",
+    intakeDates: "September Intake",
+    officialWebsite: "https://www.manchester.ac.uk/",
+    lastVerified: "Sep 2026",
+    overview: "The University of Manchester is a prestigious Russell Group institution with 25 Nobel laureates among its past and present students and staff.",
+    photos: [
+      "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "M.Sc Advanced Computer Science", duration: "1 Year", fee: "£24,000", language: "English" },
+      { name: "B.Sc Biomedical Sciences", duration: "3 Years", fee: "£22,000/yr", language: "English" }
+    ],
+    requiredDocuments: ["Transcripts", "Statement of Purpose", "2 Academic References", "IELTS"],
+    internationalStudentInfo: "2-year Graduate Route post-study work visa, vibrant student city, and global alumni network."
+  },
+  {
+    id: "uc-berkeley",
+    name: "University of California, Berkeley",
+    logo: "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+    countryId: "usa",
+    countryName: "United States",
+    city: "San Francisco / Berkeley",
+    established: "1868",
+    type: "Public Ivy Research University",
+    ranking: "Top 10 Global University (QS #10)",
+    medicalFocus: false,
+    tuitionFee: "$22,000 - $35,000 / year",
+    hostelFee: "$1,000 - $1,500 / month",
+    applicationFee: "$80",
+    duration: "4 Years (UG) / 2 Years (PG)",
+    degreeAwarded: "Bachelor / Master / PhD",
+    eligibility: "High School / Bachelor + TOEFL 90+ or IELTS 7.0",
+    intakeDates: "Fall (August) & Spring (January)",
+    officialWebsite: "https://www.berkeley.edu/",
+    lastVerified: "Sep 2026",
+    overview: "UC Berkeley is the world's premier public research university, leading global innovations in Silicon Valley, computer science, biotech, and economics.",
+    photos: [
+      "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "B.S Electrical Engineering & CS", duration: "4 Years", fee: "$28,000/yr", language: "English" },
+      { name: "Master of Engineering (M.Eng)", duration: "1 Year", fee: "$34,000", language: "English" }
+    ],
+    requiredDocuments: ["High School/Degree Transcripts", "Standardized Tests / English Score", "Financial Affidavit"],
+    internationalStudentInfo: "Up to 3-year STEM OPT post-graduation work permit in Silicon Valley tech companies."
+  },
+  {
+    id: "univ-toronto",
+    name: "University of Toronto",
+    logo: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=1200&q=80",
+    countryId: "canada",
+    countryName: "Canada",
+    city: "Toronto",
+    established: "1827",
+    type: "Public Collegiate Research University",
+    ranking: "#1 University in Canada (QS #21)",
+    medicalFocus: false,
+    tuitionFee: "CAD $18,000 - $28,000 / year",
+    hostelFee: "CAD $900 - $1,400 / month",
+    applicationFee: "CAD $180",
+    duration: "4 Years (UG) / 2 Years (PG)",
+    degreeAwarded: "Bachelor / Master of Science",
+    eligibility: "High School / Bachelor 75%+ and IELTS 6.5",
+    intakeDates: "September (Fall) & January (Winter)",
+    officialWebsite: "https://www.utoronto.ca/",
+    lastVerified: "Sep 2026",
+    overview: "The University of Toronto is Canada's top research powerhouse, recognized worldwide for medical breakthroughs (insulin discovery) and machine learning pioneering.",
+    photos: [
+      "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "Applied Computing / AI", duration: "2 Years", fee: "CAD $25,000/yr", language: "English" },
+      { name: "Commerce & Management", duration: "4 Years", fee: "CAD $22,000/yr", language: "English" }
+    ],
+    requiredDocuments: ["High School Transcripts", "IELTS Results", "Statement of Interest"],
+    internationalStudentInfo: "Up to 3-year Post-Graduation Work Permit (PGWP) with clear pathways to Canadian Permanent Residency."
+  },
+  {
+    id: "univ-sydney",
+    name: "University of Sydney",
+    logo: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1200&q=80",
+    countryId: "australia",
+    countryName: "Australia",
+    city: "Sydney",
+    established: "1850",
+    type: "Group of Eight Public University",
+    ranking: "Top 20 Global University (QS #19)",
+    medicalFocus: false,
+    tuitionFee: "AUD $22,000 - $34,000 / year",
+    hostelFee: "AUD $300 - $500 / week",
+    applicationFee: "AUD $150",
+    duration: "3-4 Years",
+    degreeAwarded: "Bachelor / Master",
+    eligibility: "High School / Bachelor + IELTS 6.5",
+    intakeDates: "February (Semester 1) & July (Semester 2)",
+    officialWebsite: "https://www.sydney.edu.au/",
+    lastVerified: "Sep 2026",
+    overview: "Australia's first university, consistently ranked in the top 20 globally with exceptional graduate employability and campus life.",
+    photos: [
+      "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "Master of Data Science", duration: "1.5 Years", fee: "AUD $32,000/yr", language: "English" },
+      { name: "Bachelor of Science", duration: "3 Years", fee: "AUD $26,000/yr", language: "English" }
+    ],
+    requiredDocuments: ["Academic Transcripts", "Proof of English", "Passport"],
+    internationalStudentInfo: "Generous post-study work rights (up to 4-5 years) in Australia's most dynamic global city."
+  },
+  {
+    id: "near-east-univ",
+    name: "Near East University (NEU)",
+    logo: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80",
+    countryId: "cyprus",
+    countryName: "Cyprus",
+    city: "Nicosia",
+    established: "1988",
+    type: "Private International University",
+    ranking: "Top University in Cyprus",
+    medicalFocus: true,
+    tuitionFee: "$3,200 / year (50% Scholarship Included)",
+    hostelFee: "$1,200 / year",
+    applicationFee: "$50",
+    duration: "6 Years (MD) / 4 Years (UG)",
+    degreeAwarded: "MD / BDS / Bachelor",
+    eligibility: "High School / FSc 50%+",
+    intakeDates: "September & February",
+    officialWebsite: "https://neu.edu.tr/en",
+    lastVerified: "Sep 2026",
+    overview: "Near East University is a comprehensive international campus featuring full-fledged teaching hospital, dental hospital, animal hospital, and 50% automatic scholarships for all international students.",
+    photos: [
+      "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "Faculty of Medicine (MD)", duration: "6 Years", fee: "$4,500/yr", language: "English" },
+      { name: "Faculty of Dentistry", duration: "5 Years", fee: "$4,000/yr", language: "English" },
+      { name: "Software Engineering", duration: "4 Years", fee: "$2,800/yr", language: "English" }
+    ],
+    requiredDocuments: ["High School Certificate", "Passport", "Transcripts"],
+    internationalStudentInfo: "50% guaranteed scholarships, affordable campus hostels, and zero IELTS requirements for pathway entry."
+  },
+  {
+    id: "univ-nicosia",
+    name: "University of Nicosia (UNIC)",
+    logo: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80",
+    countryId: "south-cyprus",
+    countryName: "South Cyprus",
+    city: "Nicosia",
+    established: "1980",
+    type: "Private EU Accredited University",
+    ranking: "Top 500 Worldwide (THE Rankings)",
+    medicalFocus: true,
+    tuitionFee: "€5,800 - €8,500 / year",
+    hostelFee: "€2,500 / year",
+    applicationFee: "€55",
+    duration: "6 Years (MD) / 4 Years (UG)",
+    degreeAwarded: "Doctor of Medicine (MD) / Bachelor",
+    eligibility: "High School Diploma 60%+",
+    intakeDates: "October & February",
+    officialWebsite: "https://www.unic.ac.cy/",
+    lastVerified: "Sep 2026",
+    overview: "The University of Nicosia (UNIC) is the largest university in Cyprus, offering accredited EU degrees in Medicine, Blockchain, Business, and Computer Science.",
+    photos: [
+      "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "Medical School (MD 6 Years)", duration: "6 Years", fee: "€8,500/yr", language: "English" },
+      { name: "B.Sc Computer Science", duration: "4 Years", fee: "€5,800/yr", language: "English" }
+    ],
+    requiredDocuments: ["High School Diploma", "Passport", "Police Clearance"],
+    internationalStudentInfo: "Full EU recognition, Erasmus+ exchange mobility across Europe, and ultra-modern student residences."
+  },
+  {
+    id: "istanbul-univ",
+    name: "Istanbul University - Cerrahpasa",
+    logo: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80",
+    countryId: "turkey",
+    countryName: "Turkey",
+    city: "Istanbul",
+    established: "1453",
+    type: "Public University",
+    ranking: "#1 Medical School in Turkey",
+    medicalFocus: true,
+    tuitionFee: "$3,800 - $6,000 / year",
+    hostelFee: "$800 - $1,500 / year",
+    applicationFee: "$50",
+    duration: "6 Years (MD)",
+    degreeAwarded: "Doctor of Medicine (MD)",
+    eligibility: "High School / FSc 65%+",
+    intakeDates: "September Intake",
+    officialWebsite: "https://iuc.edu.tr/en",
+    lastVerified: "Sep 2026",
+    overview: "Istanbul University Cerrahpasa Medical Faculty is Turkey's premier medical academy, training thousands of international doctors with extensive clinical rotations.",
+    photos: [
+      "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=800&q=80"
+    ],
+    programs: [
+      { name: "Cerrahpasa Medicine (English Track)", duration: "6 Years", fee: "$5,500/yr", language: "English" },
+      { name: "Biomedical Engineering", duration: "4 Years", fee: "$3,800/yr", language: "English" }
+    ],
+    requiredDocuments: ["High School Certificate", "Passport Copy", "Equivalence Certificate (Denklik)"],
+    internationalStudentInfo: "Vibrant student life in historic Istanbul, cheap public transport card for students, and subsidized university dining halls."
   }
 ]
 

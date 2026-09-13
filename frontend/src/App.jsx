@@ -37,9 +37,7 @@ export default function App() {
   const handleSelectEntity = (type, id) => {
     setSelectedEntityId(id)
     if (type === 'country') {
-      if (id === 'kyrgyzstan') setActiveTab('kyrgyzstan-special')
-      else if (id === 'uzbekistan') setActiveTab('uzbekistan')
-      else setActiveTab('country-detail')
+      setActiveTab('country-detail')
     } else if (type === 'university') {
       setActiveTab('university-detail')
     } else if (type === 'city') {
@@ -65,6 +63,8 @@ export default function App() {
     switch (activeTab) {
       case 'home':
         return <HomePage onNavigate={setActiveTab} onSelectEntity={handleSelectEntity} />
+      case 'explore':
+      case 'explore-countries':
       case 'countries':
         return <CountriesPage onSelectEntity={handleSelectEntity} onNavigate={setActiveTab} />
       case 'country-detail':

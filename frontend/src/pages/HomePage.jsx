@@ -113,8 +113,8 @@ export default function HomePage({ onNavigate, onSelectEntity }) {
               <Globe className="h-5 w-5" />
             </div>
             <div className="text-left">
-              <p className="text-sm font-extrabold sm:text-base">100+</p>
-              <p className="text-[11px] font-medium text-blue-200">Countries</p>
+              <p className="home-stat-value text-sm font-extrabold sm:text-base">100+</p>
+              <p className="home-stat-label text-[11px] font-medium">Countries</p>
             </div>
           </div>
           <div className="flex items-center justify-center gap-3 pt-3 sm:pt-0">
@@ -122,8 +122,8 @@ export default function HomePage({ onNavigate, onSelectEntity }) {
               <GraduationCap className="h-5 w-5" />
             </div>
             <div className="text-left">
-              <p className="text-sm font-extrabold sm:text-base">500+</p>
-              <p className="text-[11px] font-medium text-blue-200">Universities</p>
+              <p className="home-stat-value text-sm font-extrabold sm:text-base">500+</p>
+              <p className="home-stat-label text-[11px] font-medium">Universities</p>
             </div>
           </div>
           <div className="flex items-center justify-center gap-3 pt-3 sm:pt-0">
@@ -131,8 +131,8 @@ export default function HomePage({ onNavigate, onSelectEntity }) {
               <BookOpen className="h-5 w-5" />
             </div>
             <div className="text-left">
-              <p className="text-sm font-extrabold sm:text-base">10,000+</p>
-              <p className="text-[11px] font-medium text-blue-200">Programs</p>
+              <p className="home-stat-value text-sm font-extrabold sm:text-base">10,000+</p>
+              <p className="home-stat-label text-[11px] font-medium">Programs</p>
             </div>
           </div>
           <div className="flex items-center justify-center gap-3 pt-3 sm:pt-0">
@@ -140,8 +140,8 @@ export default function HomePage({ onNavigate, onSelectEntity }) {
               <Headphones className="h-5 w-5" />
             </div>
             <div className="text-left">
-              <p className="text-sm font-extrabold sm:text-base">Global Support</p>
-              <p className="text-[11px] font-medium text-blue-200">24/7 Assistance</p>
+              <p className="home-stat-value text-sm font-extrabold sm:text-base">Global Support</p>
+              <p className="home-stat-label text-[11px] font-medium">24/7 Assistance</p>
             </div>
           </div>
         </div>
